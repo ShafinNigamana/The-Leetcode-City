@@ -18,7 +18,7 @@ interface ColosseumProps {
  */
 
 export default function Colosseum({
-  position = [350, 0, -300],
+  position = [350, 0.05, -300],
   onClick,
 }: ColosseumProps) {
   const groupRef = useRef<THREE.Group>(null);
